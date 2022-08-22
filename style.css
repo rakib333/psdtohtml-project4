@@ -1,0 +1,385 @@
+/*===================================
+            common css 
+======================================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+/*===================================
+            header part css
+======================================*/
+
+.header_top_bg {
+    width: 100%;
+    background-color: #ba2e1f;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 965px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+
+.header_top_left ul {
+    display: flex;
+    margin: 17px 0px;
+}
+
+.header_top_left ul li {
+    padding: 0px 8px;
+    border-right: 1px solid #fff;
+}
+
+.header_top_left ul li:last-child {
+    border-right: none;
+}
+
+.header_top_left ul li a {
+    color: #fff;
+}
+
+.header_top_left ul li a:hover {
+    color: #ddd;
+}
+
+.header_top_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_top_left input[type="text"] {
+    position: relative;
+}
+
+.header_top_left form input {
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+}
+
+.header_top_left img {
+    position: absolute;
+    top: 17px;
+    right: 210px;
+}
+
+/*===================================
+            header middle part css
+======================================*/
+.header_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.header_middle .social_icon i {
+    color: #fff;
+    font-size: 18px;
+    background-color: black;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.header_middle .social_icon .fa-facebook:hover {
+    background-color: blue;
+}
+
+.header_middle .social_icon .fa-twitter:hover {
+    background-color: green;
+}
+
+.header_middle .social_icon .fa-pinterest:hover {
+    background-color: yellow;
+}
+
+.header_middle .social_icon .fa-google-plus:hover {
+    background-color: #21854e;
+}
+
+.header_middle .social_icon .fa-tumblr:hover {
+    background-color: #48ff00;
+}
+
+
+/*===================================
+            header bottom part css
+======================================*/
+.menu_bg {
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+.menu>ul {
+    display: flex;
+    padding: 0px 65px;
+    gap: 33px;
+}
+
+.menu ul li {
+    padding: 16px 0px;
+    position: relative;
+}
+
+.menu ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: #BA2E1F;
+}
+
+.menu ul ul li {
+    display: block;
+}
+
+.menu ul ul {
+    position: absolute;
+    background-color: #1b1919;
+    width: 120px;
+    top: 50px;
+    left: -10px;
+    display: none;
+    z-index: 999999;
+}
+
+.menu ul li ul li {
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.menu ul li ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul ul {
+    left: 120px;
+    top: 0;
+
+}
+
+/* slider area  */
+
+#slider_area {
+    margin-top: 50px;
+}
+
+/*===================================
+        banner part css
+======================================*/
+.banner_part {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.banner_text h1 {
+    color: black;
+    font-size: 70px;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner_text p {
+    color: #666666;
+    font-size: 16px;
+
+}
+
+.banner_text a {
+    color: #4a1fe7;
+    font-size: 16px;
+    float: right;
+    margin-top: 50px;
+}
+
+/*===================================
+        service part css
+======================================*/
+.service_bg {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.service_area_main {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.service_item {
+    width: 300px;
+}
+
+.service_item h2 {
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.service_item>img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px 4px #ddd;
+    margin-bottom: 20px;
+}
+
+.service_item p {
+    padding-bottom: 20px;
+    color: #878787;
+    letter-spacing: 1px;
+}
+
+.service_item a {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+}
+
+.service_detail {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.service_detail img {
+    height: 66px;
+    width: 60px;
+    margin-right: 12px;
+}
+
+.service_contact {
+    margin-bottom: 30px;
+}
+
+.service_img {
+    display: flex;
+    align-items: center;
+}
+
+.service_img img {
+    margin-right: 15px;
+}
+
+.footer_main {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.footer_links {
+    width: 217px;
+}
+
+.footer_links h2 {
+    margin-bottom: 30px;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer_links>p {
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.footer_links p span {
+    color: red;
+}
+
+.footer_links>a {
+    display: block;
+    padding: 12px 2px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.footer_links>a:last-child {
+    border-bottom: none;
+}
+
+.footer_links .link_title {
+    margin-top: 15px;
+}
+
+.footer_links .link_title h2 {
+    margin-bottom: 15px;
+    color: #1b1919;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_links .link_title a {
+    float: right;
+    margin-top: 10px;
+}
+
+.footer_links input {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer_links textarea {
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer_links button {
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.footer_bg {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.footer_bottom p {
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #919191;
+}
